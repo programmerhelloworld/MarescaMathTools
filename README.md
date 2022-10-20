@@ -18,7 +18,7 @@
 
 - Removed Two Numbers Calculator
 - Added Calculator
-
+- Jython needed!
 1.0 
 First Version
 
