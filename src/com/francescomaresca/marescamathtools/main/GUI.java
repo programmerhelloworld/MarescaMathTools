@@ -1,9 +1,8 @@
-/*
 Francesco Maresca's Maresca Math Tools. 
 Copyright (C) 2022 Francesco Maresca (@programmerhelloworld). All rights reserved.
 */
 package com.francescomaresca.marescamathtools.main;
-
+import org.python.util.PythonInterpreter;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -14,7 +13,7 @@ import javax.swing.GroupLayout.Alignment;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import com.francescomaresca.marescamathtools.main.VolumeCalculator;
-import com.francescomaresca.marescamathtools.main.TwoNumbersCalculator;
+import com.francescomaresca.marescamathtools.main.Calculator;
 import com.francescomaresca.marescamathtools.main.Credits;
 import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.JTextField;
@@ -72,10 +71,10 @@ public class GUI {
 			}
 		});
 		
-		JButton btnNewButton_1 = new JButton("Two Numbers Calculator");
+		JButton btnNewButton_1 = new JButton("Calculator");
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				TwoNumbersCalculator calc = new TwoNumbersCalculator();
+				Calculator calc = new Calculator();
 				calc.main(null);
 			}
 		});
@@ -102,7 +101,7 @@ public class GUI {
 		txtCopyrightc.setColumns(10);
 		
 		textField = new JTextField();
-		textField.setText("1.0");
+		textField.setText("1.1");
 		textField.setEditable(false);
 		textField.setColumns(10);
 		GroupLayout groupLayout = new GroupLayout(frmFrancescoMarescasMath.getContentPane());
