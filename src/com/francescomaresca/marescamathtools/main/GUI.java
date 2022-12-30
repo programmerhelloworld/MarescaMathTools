@@ -67,6 +67,7 @@ public class GUI {
 		JButton btnNewButton = new JButton("Volume Calculator");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				frmFrancescoMarescasMath.dispose();
 				VolumeCalculator volclass = new VolumeCalculator();
 				volclass.main(null);
 			}
@@ -75,6 +76,7 @@ public class GUI {
 		JButton btnNewButton_1 = new JButton("Calculator");
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				frmFrancescoMarescasMath.dispose();
 				Calculator calc = new Calculator();
 				calc.main(null);
 			}
@@ -89,6 +91,7 @@ public class GUI {
 		btnNewButton_2 = new JButton("Credits");
 		btnNewButton_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				frmFrancescoMarescasMath.dispose();
 				Credits cr = new Credits();
 				cr.main(null);
 				
