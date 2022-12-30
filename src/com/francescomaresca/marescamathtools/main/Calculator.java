@@ -1,4 +1,3 @@
-/*
 Francesco Maresca's Maresca Math Tools. 
 Copyright (C) 2022 Francesco Maresca (@programmerhelloworld). All rights reserved.
 */
@@ -52,7 +51,7 @@ public class Calculator {
 		frame.setVisible(true);
 		frame.getContentPane().setBackground(Color.WHITE);
 		frame.setResizable(false);
-		frame.setBounds(100, 100, 266, 334);
+		frame.setBounds(100, 100, 275, 397);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		JTextField textField = new JTextField();
@@ -256,65 +255,79 @@ public class Calculator {
 		});
 		btnNewButton_11_1_1.setBackground(Color.LIGHT_GRAY);
 		
+		JButton btnNewButton_15_1 = new JButton("Menu");
+		btnNewButton_15_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				frame.dispose();
+				
+				GUI menugui = new GUI();
+				menugui.main(args);
+			}
+		});
+		
 		
 		GroupLayout groupLayout = new GroupLayout(frame.getContentPane());
 		groupLayout.setHorizontalGroup(
 			groupLayout.createParallelGroup(Alignment.TRAILING)
 				.addGroup(groupLayout.createSequentialGroup()
-					.addGap(38)
 					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
 						.addGroup(groupLayout.createSequentialGroup()
-							.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
-								.addComponent(textField, GroupLayout.PREFERRED_SIZE, 167, GroupLayout.PREFERRED_SIZE)
-								.addGroup(groupLayout.createSequentialGroup()
-									.addComponent(btnNewButton, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)
-									.addPreferredGap(ComponentPlacement.UNRELATED)
-									.addComponent(btnNewButton_1, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)
-									.addPreferredGap(ComponentPlacement.UNRELATED)
-									.addComponent(btnNewButton_2, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)))
+							.addGap(38)
 							.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
 								.addGroup(groupLayout.createSequentialGroup()
-									.addGap(12)
 									.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
-										.addComponent(btnNewButton_12, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)
-										.addComponent(btnNewButton_13, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)
-										.addComponent(btnNewButton_10, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)
-										.addComponent(btnNewButton_11, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)))
+										.addComponent(textField, GroupLayout.PREFERRED_SIZE, 167, GroupLayout.PREFERRED_SIZE)
+										.addGroup(groupLayout.createSequentialGroup()
+											.addComponent(btnNewButton, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)
+											.addPreferredGap(ComponentPlacement.UNRELATED)
+											.addComponent(btnNewButton_1, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)
+											.addPreferredGap(ComponentPlacement.UNRELATED)
+											.addComponent(btnNewButton_2, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)))
+									.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+										.addGroup(groupLayout.createSequentialGroup()
+											.addGap(12)
+											.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+												.addComponent(btnNewButton_12, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)
+												.addComponent(btnNewButton_13, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)
+												.addComponent(btnNewButton_10, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)
+												.addComponent(btnNewButton_11, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)))
+										.addGroup(groupLayout.createSequentialGroup()
+											.addPreferredGap(ComponentPlacement.RELATED)
+											.addComponent(btnNewButton_14, GroupLayout.PREFERRED_SIZE, 58, GroupLayout.PREFERRED_SIZE))))
 								.addGroup(groupLayout.createSequentialGroup()
 									.addPreferredGap(ComponentPlacement.RELATED)
-									.addComponent(btnNewButton_14, GroupLayout.PREFERRED_SIZE, 58, GroupLayout.PREFERRED_SIZE))))
-						.addGroup(groupLayout.createSequentialGroup()
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(btnNewButton_6, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.UNRELATED)
-							.addComponent(btnNewButton_7, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.UNRELATED)
-							.addComponent(btnNewButton_8, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE))
-						.addGroup(groupLayout.createSequentialGroup()
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
-								.addGroup(groupLayout.createSequentialGroup()
-									.addComponent(btnNewButton_3, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)
+									.addComponent(btnNewButton_6, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)
 									.addPreferredGap(ComponentPlacement.UNRELATED)
+									.addComponent(btnNewButton_7, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.UNRELATED)
+									.addComponent(btnNewButton_8, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE))
+								.addGroup(groupLayout.createSequentialGroup()
+									.addPreferredGap(ComponentPlacement.RELATED)
 									.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
-										.addComponent(btnNewButton_9, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)
 										.addGroup(groupLayout.createSequentialGroup()
-											.addComponent(btnNewButton_4, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)
+											.addComponent(btnNewButton_3, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)
 											.addPreferredGap(ComponentPlacement.UNRELATED)
-											.addComponent(btnNewButton_5, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)
-											.addGap(68))))
-								.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
-									.addGroup(groupLayout.createSequentialGroup()
-										.addGap(6)
-										.addComponent(textField_1, GroupLayout.PREFERRED_SIZE, 167, GroupLayout.PREFERRED_SIZE))
-									.addGroup(groupLayout.createSequentialGroup()
-										.addGap(30)
-										.addComponent(btnNewButton_11_1, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)
-										.addPreferredGap(ComponentPlacement.RELATED)
-										.addComponent(btnNewButton_11_1_1, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)
-										.addGap(41)
-										.addComponent(btnNewButton_15))))))
-					.addContainerGap(54, Short.MAX_VALUE))
+											.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+												.addComponent(btnNewButton_9, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)
+												.addGroup(groupLayout.createSequentialGroup()
+													.addComponent(btnNewButton_4, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)
+													.addPreferredGap(ComponentPlacement.UNRELATED)
+													.addComponent(btnNewButton_5, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE))))
+										.addGroup(groupLayout.createSequentialGroup()
+											.addGap(6)
+											.addComponent(textField_1, GroupLayout.PREFERRED_SIZE, 167, GroupLayout.PREFERRED_SIZE))
+										.addGroup(groupLayout.createSequentialGroup()
+											.addGap(30)
+											.addComponent(btnNewButton_11_1, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)
+											.addPreferredGap(ComponentPlacement.RELATED)
+											.addComponent(btnNewButton_11_1_1, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)
+											.addGap(41)
+											.addComponent(btnNewButton_15))))))
+						.addGroup(groupLayout.createSequentialGroup()
+							.addGap(97)
+							.addComponent(btnNewButton_15_1, GroupLayout.PREFERRED_SIZE, 76, GroupLayout.PREFERRED_SIZE)))
+					.addContainerGap(GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
 		);
 		groupLayout.setVerticalGroup(
 			groupLayout.createParallelGroup(Alignment.LEADING)
@@ -355,7 +368,9 @@ public class Calculator {
 						.addComponent(btnNewButton_15))
 					.addPreferredGap(ComponentPlacement.RELATED)
 					.addComponent(textField_1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-					.addContainerGap(53, Short.MAX_VALUE))
+					.addGap(18)
+					.addComponent(btnNewButton_15_1)
+					.addContainerGap(27, Short.MAX_VALUE))
 		);
 		frame.getContentPane().setLayout(groupLayout);
 	}
