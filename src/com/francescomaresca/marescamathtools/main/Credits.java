@@ -60,6 +60,7 @@ public class Credits {
 		JButton btnNewButton = new JButton("Menu");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				frmCrediras.dispose();
 				GUI e1 = new GUI();
 				e1.main(null);
 				
