@@ -202,10 +202,19 @@ public class VolumeCalculator {
         JButton btnNewButton_3 = new JButton("Menu");
         btnNewButton_3.addActionListener(new ActionListener() {
         	public void actionPerformed(ActionEvent e) {
+        		
+        		VolumeCalculator vol = new VolumeCalculator();
+        	
+        		frame.dispose();
+        	
+        		
         		GUI abc = new GUI();
         		abc.main(args);
         	}
+        	
         });
+        
+        
         GroupLayout groupLayout = new GroupLayout(frame.getContentPane());
         groupLayout.setHorizontalGroup(
         	groupLayout.createParallelGroup(Alignment.LEADING)
