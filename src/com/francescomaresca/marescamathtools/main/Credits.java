@@ -1,6 +1,6 @@
 /*
 Francesco Maresca's Maresca Math Tools. 
-Copyright (C) 2022 Francesco Maresca (@programmerhelloworld). All rights reserved.
+Copyright (C) 2023 Francesco Maresca (@programmerhelloworld). All rights reserved.
 */
 package com.francescomaresca.marescamathtools.main;
 import com.francescomaresca.marescamathtools.main.GUI;
@@ -54,7 +54,7 @@ public class Credits {
 		frmCrediras.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		JTextPane txtpnFrancescoMarescasMaresca = new JTextPane();
-		txtpnFrancescoMarescasMaresca.setText("Francesco Maresca's Maresca Math Tools. Copyright (C) 2022 Francesco Maresca (GitHub: @programmerhelloworld). All rights reserved.");
+		txtpnFrancescoMarescasMaresca.setText("Francesco Maresca's Maresca Math Tools. Copyright (C) 2023 Francesco Maresca (GitHub: @programmerhelloworld). All rights reserved.");
 		txtpnFrancescoMarescasMaresca.setEditable(false);
 		
 		JButton btnNewButton = new JButton("Menu");
