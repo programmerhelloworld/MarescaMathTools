@@ -33,4 +33,4 @@ First Version
 
 
 # MarescaMathTools
-Francesco Maresca's Maresca Math Tools.  Copyright (C) 2022 Francesco Maresca (@programmerhelloworld). All rights reserved.
+Francesco Maresca's Maresca Math Tools.  Copyright (C) 2023 Francesco Maresca (@programmerhelloworld). All rights reserved.
