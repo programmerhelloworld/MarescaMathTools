@@ -20,12 +20,12 @@
 
 - Bigger Calculator Buttons
 
-1.6
+1.6 (December 31th 2022)
 
 - Improvements on the frames
 
 
-1.5
+1.5 (October 2022)
 
 - Removed Two Numbers Calculator
 - Added Calculator
