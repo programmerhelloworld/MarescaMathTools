@@ -1,4 +1,3 @@
-/*
 Francesco Maresca's Maresca Math Tools. 
 Copyright (C) 2023 Francesco Maresca (@programmerhelloworld). All rights reserved.
 */
@@ -48,12 +47,13 @@ public class Calculator {
 	public static void main(String[] args) {
 		PythonInterpreter pyth = new PythonInterpreter();
 
-		JFrame frame = new JFrame();
-		frame.setVisible(true);
-		frame.getContentPane().setBackground(Color.WHITE);
-		frame.setResizable(false);
-		frame.setBounds(100, 100, 326, 584);
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		JFrame frmCalculatorMaresca = new JFrame();
+		frmCalculatorMaresca.setTitle("Calculator - Maresca Math Tools");
+		frmCalculatorMaresca.setVisible(true);
+		frmCalculatorMaresca.getContentPane().setBackground(Color.WHITE);
+		frmCalculatorMaresca.setResizable(false);
+		frmCalculatorMaresca.setBounds(100, 100, 326, 584);
+		frmCalculatorMaresca.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		JTextField textField = new JTextField();
 		textField.setBackground(Color.LIGHT_GRAY);
@@ -260,7 +260,7 @@ public class Calculator {
 		btnNewButton_15_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				frame.dispose();
+				frmCalculatorMaresca.dispose();
 				
 				GUI menugui = new GUI();
 				menugui.main(args);
@@ -268,7 +268,7 @@ public class Calculator {
 		});
 		
 		
-		GroupLayout groupLayout = new GroupLayout(frame.getContentPane());
+		GroupLayout groupLayout = new GroupLayout(frmCalculatorMaresca.getContentPane());
 		groupLayout.setHorizontalGroup(
 			groupLayout.createParallelGroup(Alignment.LEADING)
 				.addGroup(groupLayout.createSequentialGroup()
@@ -371,6 +371,6 @@ public class Calculator {
 						.addComponent(btnNewButton_15_1, GroupLayout.PREFERRED_SIZE, 44, GroupLayout.PREFERRED_SIZE))
 					.addContainerGap(59, Short.MAX_VALUE))
 		);
-		frame.getContentPane().setLayout(groupLayout);
+		frmCalculatorMaresca.getContentPane().setLayout(groupLayout);
 	}
 }
