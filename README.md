@@ -18,7 +18,7 @@
 
 1.8 (January 7th 2023)
 
-- Little improvements
+- Small improvements
 
 1.7 (January 3rd 2023)
 
@@ -42,10 +42,10 @@ First Version
 ---BETA
 
 0.5 (Before Jan 2022)
-Small improvements
+- Small improvements
 
 0.2 (Before October 2021)
-Small Improvements
+- Small Improvements
 
 0.1 (July 2021)
 - Two Numbers Calculator
