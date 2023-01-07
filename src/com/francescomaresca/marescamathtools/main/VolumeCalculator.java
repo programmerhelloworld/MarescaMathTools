@@ -1,4 +1,3 @@
-/*
 Francesco Maresca's Maresca Math Tools. 
 Copyright (C) 2023 Francesco Maresca (@programmerhelloworld). All rights reserved.
 */
@@ -25,12 +24,13 @@ public class VolumeCalculator {
      * Launch the application.
      */
     public static void main(String[] args) {
-    	JFrame frame = new JFrame("Francesco Maresca's Volume Calculator");
-    	frame.getContentPane().setBackground(Color.WHITE);
-        frame.setResizable(false);
-        frame.setBounds(100, 100, 673, 404);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setVisible(true);
+    	JFrame frmVolumeCalculator = new JFrame("Francesco Maresca's Volume Calculator");
+    	frmVolumeCalculator.setTitle("Volume Calculator - Maresca Math Tools");
+    	frmVolumeCalculator.getContentPane().setBackground(Color.WHITE);
+        frmVolumeCalculator.setResizable(false);
+        frmVolumeCalculator.setBounds(100, 100, 673, 404);
+        frmVolumeCalculator.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frmVolumeCalculator.setVisible(true);
 
         JTextField textField = new JTextField();
         textField.setBackground(Color.LIGHT_GRAY);
@@ -205,7 +205,7 @@ public class VolumeCalculator {
         		
         		VolumeCalculator vol = new VolumeCalculator();
         	
-        		frame.dispose();
+        		frmVolumeCalculator.dispose();
         	
         		
         		GUI abc = new GUI();
@@ -215,7 +215,7 @@ public class VolumeCalculator {
         });
         
         
-        GroupLayout groupLayout = new GroupLayout(frame.getContentPane());
+        GroupLayout groupLayout = new GroupLayout(frmVolumeCalculator.getContentPane());
         groupLayout.setHorizontalGroup(
         	groupLayout.createParallelGroup(Alignment.LEADING)
         		.addGroup(groupLayout.createSequentialGroup()
@@ -349,7 +349,7 @@ public class VolumeCalculator {
         						.addComponent(textField_8, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))))
         			.addContainerGap())
         );
-        frame.getContentPane().setLayout(groupLayout);
+        frmVolumeCalculator.getContentPane().setLayout(groupLayout);
     }
 }
  
