@@ -38,7 +38,18 @@
 
 1.0 
 First Version
+- Menu that joins all the programs together
+---BETA
 
+0.5 (Before Jan 2022)
+Small improvements
+
+0.2 (Before October 2021)
+Small Improvements
+
+0.1 (July 2021)
+- Two Numbers Calculator
+- Volume Calculator
 
 # MarescaMathTools
 Francesco Maresca's Maresca Math Tools.  Copyright (C) 2023 Francesco Maresca (@programmerhelloworld). All rights reserved.
