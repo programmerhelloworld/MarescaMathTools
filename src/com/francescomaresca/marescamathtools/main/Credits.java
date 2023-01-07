@@ -1,4 +1,3 @@
-/*
 Francesco Maresca's Maresca Math Tools. 
 Copyright (C) 2023 Francesco Maresca (@programmerhelloworld). All rights reserved.
 */
@@ -48,7 +47,7 @@ public class Credits {
 	private void initialize() {
 		frmCrediras = new JFrame();
 		frmCrediras.getContentPane().setBackground(Color.WHITE);
-		frmCrediras.setTitle("Credits");
+		frmCrediras.setTitle("Credits - Maresca Math Tools");
 		frmCrediras.setResizable(false);
 		frmCrediras.setBounds(100, 100, 450, 300);
 		frmCrediras.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
