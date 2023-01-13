@@ -112,13 +112,13 @@ public class VolumeCalculator {
         txtResult.setBackground(Color.WHITE);
 
         JTextField txtCubeArea = new JTextField();
-        txtCubeArea.setText("Cube Area");
+        txtCubeArea.setText("Cube Volume");
         txtCubeArea.setEditable(false);
         txtCubeArea.setColumns(10);
         txtCubeArea.setBackground(Color.WHITE);
 
         JTextField txtPyramidArea = new JTextField();
-        txtPyramidArea.setText("Pyramid Area");
+        txtPyramidArea.setText("Pyramid Volume");
         txtPyramidArea.setEditable(false);
         txtPyramidArea.setColumns(10);
         txtPyramidArea.setBackground(Color.WHITE);
