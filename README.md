@@ -18,7 +18,7 @@
 
 1.9 (January 13th 2023)
 
-- Volume Calculator has now a bigger G.U.I 
+- Volume Calculator has now a bigger G.U.I.
 
 1.8 (January 7th 2023)
 
